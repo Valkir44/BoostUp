@@ -1,0 +1,156 @@
+@media all and (max-width: 1170px) {
+    .header .container {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+    }
+
+    .menu__items {
+        margin-right: 0;
+    }
+
+    .menu__items a {
+        font-size: 12px;
+    }
+
+    .form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .form__item {
+        flex: 1 1 100px;
+    }
+
+    .offers {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .awesome-icon, .knowledge-icon, .code-icon, .gear-icon, .rocket-icon, .dollar-icon {
+        background-position: center top;
+    }
+
+    .item-title, .item-text {
+        margin-left: 0;
+    }
+
+    .item-title {
+        margin-top: 55px;
+    }
+
+    .about {
+        background: url(../img/note.jpg) #ffc155cc no-repeat top center;
+        text-align: center;
+    }
+
+    .about-flex {
+        align-items: center;
+    }
+
+    .about__content {
+        align-items: center;
+    }
+
+    .steps__arrow {
+        display: none;
+    }
+
+    .clients {
+        justify-content: space-around;
+        height: inherit;
+    }
+
+    .map {
+        background: none;
+        max-width: 1102px;
+        height: 549px;
+        margin: 50px auto 0;
+        padding-top: 38px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form__item {
+        margin-bottom: 20px;
+        flex: none;
+    }
+
+    .price__item {
+        width: 210px;
+    }
+
+    .steps__item {
+        background: #bb9f9f0a;
+    }
+
+}
+
+@media all and (max-width: 770px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .slider-container {
+        background: none;
+        position: relative;
+        max-width: 445px;
+        margin: 0 auto;
+        height: 344px;
+        top: 0;
+    }
+
+    .slider {
+         margin-left: 0;
+    }
+
+    .our-services {
+        padding-top: 100px;
+    }
+
+    .price__content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .price__item {
+        width: 330px;
+        margin-bottom: 30px;
+    }
+
+    .steps__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .steps__item {
+        margin-bottom: 30px;
+    }
+
+
+    .clients-item {
+        max-width: 560px;
+        height: 100%;
+        padding: 25px 10px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .clients-content {
+        margin: 20px 0;
+    }
+}
